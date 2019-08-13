@@ -1,0 +1,38 @@
+/* pulled from my first intrega sample found at
+https://github.com/jessburnett/integra. No need 
+to re-invent the wheel :)
+*/
+/* variables for branding & topography */
+$blue: #0b3c5d;
+$gray: #c5c1c0;
+
+
+/* mixins */
+
+@mixin flex {
+  display: flex;
+}
+
+@mixin wrap {
+  flex-wrap: wrap;
+}
+
+/*
+one of my favorite features of flexbox.
+it finally solved the age old difficulty
+of aligning content vertically and horizontally
+in an efficient, simple matter!
+*/
+@mixin center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  @include flex;
+  @include wrap;
+}
+
+body {
+  color: $gray;
+}
