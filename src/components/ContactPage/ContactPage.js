@@ -1,5 +1,5 @@
-import React from 'react'
-import ContactForm from '../containers/ContactForm'
+import React from 'react';
+import ContactForm from '../../containers/ContactForm';
 
 // often the file structure may have a folder labeled
 // Pages on the same level of components

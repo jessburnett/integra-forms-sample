@@ -1,6 +1,6 @@
 import { reduxForm } from 'redux-form'
 
-import { Form } from '../components/Form';
+import { Form } from '../components/Form/Form';
 
 const createReduxForm = reduxForm({ form: 'contact' });
 

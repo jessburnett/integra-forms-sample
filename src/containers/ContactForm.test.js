@@ -1,5 +1,5 @@
 import * as reduxForm from 'redux-form';
-import { Form } from '../components/Form';
+import { Form } from '../components/Form/Form';
 
 const mockCreateReduxForm = jest.fn();
 jest.mock('redux-form', () => {

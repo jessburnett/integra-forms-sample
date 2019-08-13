@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Provider } from "react-redux";
 import store from "./store";
-import { ContactPage } from './components/ContactPage';
+import { ContactPage } from './components/ContactPage/ContactPage';
 import './App.scss';
 
 class App extends Component {

@@ -1,0 +1,20 @@
+@import "../../App.scss";
+
+.button-row {
+  justify-content: flex-end;
+  margin-right: 1rem;
+
+  > button {
+    margin: .5rem;
+    padding: .5rem;
+    background-color: $blue;
+    color: $gray;
+    border: none;
+    border-radius: .5rem;
+    
+    &:hover{
+      color: $blue;
+      background-color: $gray;
+    }
+  }
+}
