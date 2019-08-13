@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component => RenderField should match snapshot 1`] = `
+<form>
+  <div>
+    Username
+  </div>
+  <div>
+    Email
+  </div>
+  <div>
+    Phone
+  </div>
+  <div>
+    <button
+      type="submit"
+    >
+      Submit
+    </button>
+    <button
+      disabled=""
+      type="button"
+    >
+      Clear Values
+    </button>
+  </div>
+</form>
+`;

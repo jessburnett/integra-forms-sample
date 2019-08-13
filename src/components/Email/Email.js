@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 import { Field } from "redux-form";
 import { RenderField } from "../RenderField/RenderField";
 
-export function Phone() {
+export function Email() {
   return <Field
-    name="phone"
-    type="phone"
+    name="email"
+    type="email"
     component={RenderField}
-    label="Phone"
+    label="Email"
   />;
 }

@@ -1,5 +1,4 @@
 @import "../../App.scss";
 
-.form-row {
-  > label { display: none; }
-}
+/* hide labels in UI */
+label { display: none; }

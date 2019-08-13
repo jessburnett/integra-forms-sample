@@ -3,7 +3,7 @@ import './RenderField.scss';
 
 export const RenderField = ({ input, label, type, meta: { touched, error, warning } }) => (
   // dynamically create a form row for rendered field
-  <div className={`form-row ` + label.toString().toLowerCase()}>
+  <div className={label.toString().toLowerCase()}>
     <label>{label}</label>
     <Fragment>
       <input {...input} placeholder={label} type={type}/>
