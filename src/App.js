@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Provider } from "react-redux";
 import store from "./store";
+import { ContactPage } from './components/ContactPage';
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-          hi
+          <ContactPage/>
       </Provider>
     );
   }
